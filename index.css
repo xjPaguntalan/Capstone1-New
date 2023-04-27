@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Montserrat;
+}
+
+html, body, .me #hi, .me #name, .me #desc, .me #hire, #aboutme, #fname, #desc2, #geninfo, #dob, #bp, #l, #jan, #dav, #eng, #contact, #numb, #insta, #fb, #link, #gmail,#myPic, #myPic2, #prg1, #prg2, #prg3 {
     overflow-x: hidden;
 }
 
@@ -77,4 +80,22 @@ div h3{
 #myPic2 {
     border-radius: 70px;
     max-height: 600px;
+}
+
+#prog h1 {
+    font-size: 50px;
+}
+
+#prog img {
+    border-radius: 20px;
+}
+
+.progcon {
+    background: #073763;
+    border-radius: 40px;
+}
+
+.progtext {
+    border-radius: 20px;
+    background: white;
 }
