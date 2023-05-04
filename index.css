@@ -9,6 +9,22 @@ html, body, .me #hi, .me #name, .me #desc, .me #hire, #aboutme, #fname, #desc2, 
     overflow-x: hidden;
 }
 
+#homepage h1 {
+    font-size: 50px;
+}
+
+#fname {
+    font-size: 50px;
+}
+
+#gmail {
+    font-size: 17px;
+}
+
+#prglng {
+    font-size: 40px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -98,4 +114,14 @@ div h3{
 .progtext {
     border-radius: 20px;
     background: white;
+}
+
+.econbg {
+    background: #073763;
+    height: 100%;
+    color: white;
+}
+
+#edu {
+    font-size: 55px;
 }
