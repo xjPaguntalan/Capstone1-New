@@ -5,7 +5,11 @@
     font-family: Montserrat;
 }
 
-html, body, .me #hi, .me #name, .me #desc, .me #hire, #aboutme, #fname, #desc2, #geninfo, #dob, #bp, #l, #jan, #dav, #eng, #contact, #numb, #insta, #fb, #link, #gmail,#myPic, #myPic2, #prg1, #prg2, #prg3 {
+div {
+    overflow: hidden;
+}
+
+html {
     overflow-x: hidden;
 }
 
@@ -124,4 +128,8 @@ div h3{
 
 #edu {
     font-size: 55px;
+}
+
+.econbg, #econ1 img, #econ2 img, #econ3 img {
+    border-radius: 20px;
 }
