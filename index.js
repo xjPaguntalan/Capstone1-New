@@ -9,7 +9,7 @@ ScrollReveal().reveal('.me #hi, .me #name, .me #desc, .me #hire', { delay: 10, o
 
 ScrollReveal().reveal('#aboutme, #fname, #desc2, #geninfo, #dob, #bp, #l, #jan, #dav, #eng, #contact, #numb, #insta, #fb, #link, #gmail', { delay: 10, origin: 'left', interval: 70 });
 
-ScrollReveal().reveal('#myPic, #myPic2, #prog h1', { delay: 100, origin: 'right' });
+ScrollReveal().reveal('#myPic, #myPic2, #prglng', { delay: 100, origin: 'right' });
 
 ScrollReveal().reveal('#prg1, #prg1 img, #txt1', {delay: 100, origin: 'left', interval: 100})
 
