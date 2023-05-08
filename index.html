@@ -81,7 +81,7 @@
           <h3 id="hi">Hello,</h3>
           <h1 id="name" class="my-4"><u>I'm Xandrix Paguntalan</u></h2>
           <h3 id="desc">Web Developer</h3>
-          <button id="hire" class="p-2 mt-3 mb-5"><b>Hire Me</b></button>
+          <button id="hire" onclick="redirectToResume()" class="p-2 mt-3 mb-5"><b>Resume</b></button>
         </div>
 
         <div class="col-12 col-md-6 pt-sm-4 text-center">
@@ -104,10 +104,10 @@
 
         <h1 id="aboutme" class="text-center"><u>About Me</u></h1>
 
-        <div class="col-12 col-md-6 jus pt-5">
+        <div class="col-12 col-md-6 jus pt-5 order-2 order-md-1">
 
           <h1 id="fname" class="text-center">Xandrix Jill B. Paguntalan</h1>
-          <p id="desc2" class="col-10 mx-auto text-center">I'm a web developer with good knowledge of front-end techniques to make websites more appealing. I also have knowledge in back-end to add functionality in the website. </p>
+          <p id="desc2" class="col-10 mx-auto text-center">As an aspiring web developer, I have a strong foundation in front-end techniques that enable me to create visually appealing websites. Additionally, I have some knowledge in back-end development that allows me to add functionality to websites. While I am still learning and growing in my skills as a developer, I am eager to take on new challenges and continue to build my expertise in web development.</p>
 
           <h3 id="geninfo" class="text-center pt-5"><b>General Info</b></h3>
 
@@ -143,7 +143,7 @@
           
         </div>
 
-        <div class="col-12 col-md-6 align-self-center text-center">
+        <div class="col-12 col-md-6 order-1 order-md-2 align-self-center text-center">
           <img id="myPic2" class="img-fluid my-3" src="https://scontent.fceb1-2.fna.fbcdn.net/v/t39.30808-6/321829692_634468328430572_4727592972643301303_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEkeITRqKwcBwgbJqNRN8d-cPjA8VWmyuhw-MDxVabK6JEZ2M9I-yB-BswLAVndQDIJITziNeNSVmsB1hI8M315&_nc_ohc=z3VJ3q0-9QEAX9c-V1i&_nc_ht=scontent.fceb1-2.fna&oh=00_AfD9zL8bJUfl-MJh4bFntTpAThAr37C6CDC8ZZBnK_56mw&oe=644CFF2D" alt="">
         </div>
 
@@ -260,7 +260,7 @@
 
             <div class="text-center">
 
-              <img class="img-fluid" src="./images/pisd.jpg" alt="">
+              <a target=" " href="https://www.pisdavao.com"><img class="img-fluid" src="./images/pisd.jpg" alt=""></a>
   
             </div>
             
@@ -281,7 +281,7 @@
 
             <div class="text-center">
 
-              <img class="img-fluid" src="./images/mmcm.jpg" alt="">
+              <a target=" " href="https://mcm.edu.ph"><img class="img-fluid" src="./images/mmcm.jpg" alt=""></a>
   
             </div>
             
@@ -302,7 +302,7 @@
 
             <div class="text-center">
 
-              <img class="img-fluid" src="./images/zuitt.jpg" alt="">
+              <a target=" " href="https://zuitt.co"><img class="img-fluid" src="./images/zuitt.jpg" alt=""></a>
   
             </div>
             
@@ -332,70 +332,43 @@
 
       <h1 class="py-4 text-center"><u>Projects</u></h1>
 
-      <div class="d-flex justify-content-center">
+      <div class="d-flex flex-column align-items-center">
 
-        <div class="col-10">
+        <div class="col-12 col-md-10">
 
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-          
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-          
-            </div>
+            
             <div class="carousel-inner">
           
               <div class="carousel-item active" data-bs-interval="3000">
                 <img src="./images/proj1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
+                <div class="carousel-caption d-none d-md-block"></div>
               </div>
           
               <div class="carousel-item" data-bs-interval="3000">
                 <img src="./images/proj2.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                <div class="carousel-caption d-none d-md-block"></div>
               </div>
           
               <div class="carousel-item" data-bs-interval="3000">
                 <img src="./images/proj3.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                <div class="carousel-caption d-none d-md-block"></div>
               </div>
           
               <div class="carousel-item" data-bs-interval="3000">
                 <img src="./images/proj4.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                <div class="carousel-caption d-none d-md-block"></div>
               </div>
           
               <div class="carousel-item" data-bs-interval="3000">
-                <img src="./images/proj5.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
+                <img src="https://iili.io/HGSPKNf.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
               </div>
           
             </div>
           
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <i class="fa-solid fa-chevron-left" style="color: #073763;"></i>
+              <i class="fa-solid fa-chevron-left"></i>
             </button>
           
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
@@ -406,6 +379,12 @@
   
         </div>
 
+        <div id="prjtxt" class="text-center mt-3 mb-5 p-3">
+
+          <h4>The projects displayed above are examples of my work while I was learning at Zuitt.</h4>
+
+        </div>
+
       </div>
 
     </div>
@@ -413,6 +392,62 @@
   </div>
 
 <!-- Projects End -->
+
+<!-- Footer Start -->
+
+<div id="footer">
+
+  <div class="container-fluid d-flex flex-column align-items-center">
+
+    <div class="d-flex pt-3">
+
+      <div class="mx-3">
+        <a target=" " href="https://www.facebook.com/profile.php?id=100087469804846" > <i class="fa-brands fa-facebook fa-lg"></i> </a>
+      </div>
+
+      <div class="mx-3">
+        <a target=" " href="https://www.instagram.com/xirdnqx/"><i class="fa-brands fa-instagram fa-lg"></i> </a>
+      </div>
+
+      <div class="mx-3">
+        <a target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/"><i class="fa-brands fa-linkedin fa-lg"></i> </a>
+      </div>
+
+      <div class="mx-3">
+        <a target=" " href="https://gitlab.com/xjPaguntalan"><i class="fa-brands fa-gitlab fa-lg"></i></a>
+      </div>
+
+      <div class="mx-3">
+        <a target=" " href="https://github.com/xjPaguntalan"><i class="fa-brands fa-github fa-lg"></i></a>
+      </div>
+
+    </div>
+
+    <div class="my-3">
+
+      <div class="text-center">
+        0947-576-1100 <i class="fa-solid fa-phone"></i>
+      </div>
+
+      <div class="text-center my-3">
+        xandrixjillpaguntalan@gmail.com <i class="fa-regular fa-envelope"></i>
+      </div>
+
+      <div class="text-center">
+        xandrixjill@gmail.com <i class="fa-regular fa-envelope"></i>
+      </div>
+
+    </div>
+  
+    <div class="mb-3">
+      <i class="fa-regular fa-copyright"></i> 2023 Xandrix Paguntalan | All Rights Reserved
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Footer End -->
 
 
 <!-- Bootstrap Start -->
