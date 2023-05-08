@@ -15,6 +15,9 @@
   <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b01cc1c892.js" crossorigin="anonymous"></script>
 
+  <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  
   <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,14 +78,14 @@
       <div class="row d-flex align-items-center justify-content-center">
 
         <div id="homeContent" class="col-12 col-md-6 me ps-lg-5 pt-5">
-          <h3 id="hi">Hello,</h3>
-          <h1 id="name" class="my-4"><u>I'm Xandrix Paguntalan</u></h2>
-          <h3 id="desc">Web Developer</h3>
-          <button id="hire" onclick="redirectToResume()" class="p-2 mt-3 mb-5"><b>Resume</b></button>
+          <h3 class=".load-hidden" id="hi">Hello,</h3>
+          <h1 id="name" class="my-4 .load-hidden"><u>I'm Xandrix Paguntalan</u></h2>
+          <h3 class=".load-hidden" id="desc">Web Developer</h3>
+          <button id="hire" onclick="redirectToResume()" class="p-2 mt-3 mb-5 .load-hidden"><b>Resume</b></button>
         </div>
 
         <div class="col-12 col-md-6 pt-sm-4 text-center">
-          <img id="myPic" class="img-fluid mb-5" src="./images/FB PIC.jpg" alt="">
+          <img id="myPic" class="img-fluid mb-5 .load-hidden" src="./images/FB PIC.jpg" alt="">
         </div>
 
       </div>
@@ -99,49 +102,49 @@
 
       <div class="row pt-4">
 
-        <h1 id="aboutme" class="text-center"><u>About Me</u></h1>
+        <h1 id="aboutme" class="text-center .load-hidden"><u>About Me</u></h1>
 
         <div class="col-12 col-md-6 jus pt-5 order-2 order-md-1">
 
-          <h1 id="fname" class="text-center">Xandrix Jill B. Paguntalan</h1>
-          <p id="desc2" class="col-10 mx-auto text-center">As an aspiring web developer, I have a strong foundation in front-end techniques that enable me to create visually appealing websites. Additionally, I have some knowledge in back-end development that allows me to add functionality to websites. While I am still learning and growing in my skills as a developer, I am eager to take on new challenges and continue to build my expertise in web development.</p>
+          <h1 id="fname" class="text-center .load-hidden">Xandrix Jill B. Paguntalan</h1>
+          <p id="desc2" class="col-10 mx-auto text-center .load-hidden">As an aspiring web developer, I have a strong foundation in front-end techniques that enable me to create visually appealing websites. Additionally, I have some knowledge in back-end development that allows me to add functionality to websites. While I am still learning and growing in my skills as a developer, I am eager to take on new challenges and continue to build my expertise in web development.</p>
 
-          <h3 id="geninfo" class="text-center pt-5"><b>General Info</b></h3>
+          <h3 id="geninfo" class="text-center pt-5 .load-hidden"><b>General Info</b></h3>
 
           <div class="container-fluid col-12 col-md-8">
             <div class="d-flex">
 
               <div class="col-6 d-flex justify-content-center">
                 <div class="col-12 text-center">
-                  <h5 id="dob" class="my-3"><b>Date Of Birth:</b></h5>
-                  <h5 id="bp" class=""><b>Birth Place:</b></h5>
-                  <h5 id="l" class="my-3"><b>Languages:</b></h5>
+                  <h5 id="dob" class="my-3 .load-hidden"><b>Date Of Birth:</b></h5>
+                  <h5 id="bp" class=".load-hidden"><b>Birth Place:</b></h5>
+                  <h5 id="l" class="my-3 .load-hidden"><b>Languages:</b></h5>
                 </div>
               </div>
 
               <div class="col-6 d-flex justify-content-center">
                 <div class="col-12 text-center">
-                  <h5 id="jan" class="my-3">Jan 20, 2003</h5>
-                  <h5 id="dav" class="">Davao City</h5>
-                  <h5 id="eng" class="my-3">English, Tagalog, Bisaya</h5>
+                  <h5 id="jan" class="my-3.load-hidden">Jan 20, 2003</h5>
+                  <h5 id="dav" class=".load-hidden">Davao City</h5>
+                  <h5 id="eng" class="my-3 .load-hidden">English, Tagalog, Bisaya</h5>
                 </div>
               </div>
 
             </div>
           </div>
 
-          <h3 id="contact" class="text-center pt-4"><b>Contact Info</b></h3>
+          <h3 id="contact" class="text-center pt-4 .load-hidden"><b>Contact Info</b></h3>
           
-          <h5 id="numb" class="text-center my-3"><b>0947-576-1100 <i class="fa-solid fa-phone"></i></b></h5>
-          <h5 id="insta" class="text-center"><b><a target=" " href="https://www.instagram.com/xirdnqx/">Instagram <i class="fa-brands fa-instagram"></i> </a></b></h5>
-          <h5 id="fb" class="text-center my-3"><b><a target=" " href="https://www.facebook.com/profile.php?id=100087469804846" >Facebook <i class="fa-brands fa-facebook"></i> </a></b></h5>
-          <h5 id="link" class="text-center"><b><a target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/">LinkedIn <i class="fa-brands fa-linkedin"></i> </a></b></h5>
-          <h5 id="gmail" class="text-center my-3"><b>xandrixjillpaguntalan@gmail.com <i class="fa-regular fa-envelope"></i></b></h5>
+          <h5 id="numb" class="text-center my-3 .load-hidden"><b>0947-576-1100 <i class="fa-solid fa-phone"></i></b></h5>
+          <h5 id="insta" class="text-center .load-hidden"><b><a target=" " href="https://www.instagram.com/xirdnqx/">Instagram <i class="fa-brands fa-instagram"></i> </a></b></h5>
+          <h5 id="fb" class="text-center my-3 .load-hidden"><b><a target=" " href="https://www.facebook.com/profile.php?id=100087469804846" >Facebook <i class="fa-brands fa-facebook"></i> </a></b></h5>
+          <h5 id="link" class="text-center .load-hidden"><b><a target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/">LinkedIn <i class="fa-brands fa-linkedin"></i> </a></b></h5>
+          <h5 id="gmail" class="text-center my-3 .load-hidden"><b>xandrixjillpaguntalan@gmail.com <i class="fa-regular fa-envelope"></i></b></h5>
           
         </div>
 
         <div class="col-12 col-md-6 order-1 order-md-2 align-self-center text-center">
-          <img id="myPic2" class="img-fluid my-3" src="./images/mypic2.jpg" alt="">
+          <img id="myPic2" class="img-fluid my-3 .load-hidden" src="./images/mypic2.jpg" alt="">
         </div>
 
       </div>
@@ -157,21 +160,21 @@
 
     <div class="container-fluid pt-5">
 
-      <h2 id="prglng" class="pt-4 text-center"><b><u>Programming Languages</u></b></h2>
+      <h2 id="prglng" class="pt-4 text-center .load-hidden"><b><u>Programming Languages</u></b></h2>
 
       <div class="row d-flex justify-content-evenly pt-5 mx-1">
 
 
 
-        <div id="prg1" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center">
+        <div id="prg1" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center .load-hidden">
 
           <div class="col-10 d-flex flex-column justify-content-evenly">
 
             <div class="mt-5 mb-2 text-center">
-              <img class="img-fluid" src="./images/html.png" alt="">
+              <img class="img-fluid .load-hidden" src="./images/html.png" alt="">
             </div>
   
-            <div id="txt1" class="progtext mb-5 mt-3">
+            <div id="txt1" class="progtext mb-5 mt-3 .load-hidden">
   
               <h2 class="text-center mt-3">HTML</h2>
   
@@ -185,17 +188,17 @@
 
 
 
-        <div id="prg2" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center">
+        <div id="prg2" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center .load-hidden">
 
           <div class="col-10 d-flex flex-column justify-content-evenly">
 
             <div class="mt-5 mb-2 text-center">
 
-              <img class="img-fluid" src="./images/css.png" alt="">
+              <img class="img-fluid .load-hidden" src="./images/css.png" alt="">
               
             </div>
   
-            <div id="txt2" class="progtext mb-5 mt-3">
+            <div id="txt2" class="progtext mb-5 mt-3 .load-hidden">
   
               <h2 class="text-center mt-3">CSS</h2>
   
@@ -211,15 +214,15 @@
 
 
 
-        <div id="prg3" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center">
+        <div id="prg3" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center .load-hidden">
 
           <div class="col-10 d-flex flex-column justify-content-evenly">
 
             <div class="mt-5 mb-2 text-center">
-              <img class="img-fluid" src="./images/js.jpg" alt="">
+              <img class="img-fluid .load-hidden" src="./images/js.jpg" alt="">
             </div>
   
-            <div id="txt3" class="progtext mb-5 mt-3">
+            <div id="txt3" class="progtext mb-5 mt-3 .load-hidden">
   
               <h2 class="text-center mt-3">JavaScript</h2>
   
@@ -246,12 +249,12 @@
 
     <div class="pt-5 container-fluid">
 
-      <h1 id="edu" class="text-center py-4"><u>Education</u></h1>
+      <h1 id="edu" class="text-center py-4 .load-hidden"><u>Education</u></h1>
 
       <div id="educationContainer" class="row d-flex justify-content-evenly">
 
 
-        <div id="econ1" class="col-12 col-md-6 p-3">
+        <div id="econ1" class="col-12 col-md-6 p-3 .load-hidden">
 
           <div class="p-3 econbg">
 
@@ -272,7 +275,7 @@
 
         </div>
 
-        <div id="econ2" class="col-12 col-md-6 p-3 ">
+        <div id="econ2" class="col-12 col-md-6 p-3 .load-hidden">
 
           <div class="p-3 econbg">
 
@@ -293,7 +296,7 @@
 
         </div>
 
-        <div id="econ3" class="col-12 col-md-6 p-3">
+        <div id="econ3" class="col-12 col-md-6 p-3 .load-hidden">
 
           <div class="p-3 econbg">
 
@@ -448,7 +451,6 @@
 <!-- Bootstrap End -->
 
 <!-- Scroll Reveal Start -->
-  <script src="https://unpkg.com/scrollreveal"></script>
   <script src="index.js"></script>
 <!-- Scroll Reveal End -->
 
