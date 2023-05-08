@@ -32,7 +32,7 @@ window.onload = function() {
       localStorage.setItem('reloaded', 'true');
       setTimeout(function() {
         location.reload();
-      }, 1000);
+      }, 1);
     }
 };
   
