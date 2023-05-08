@@ -25,13 +25,4 @@ ScrollReveal().reveal('#edu, #econ1, #econ2, #econ3', {duration: 2000, delay: 10
 function redirectToResume() {
     window.open("https://1drv.ms/b/s!AnYRTfeNhzaIblCqZdBTPQ4sIo4?e=D9oync");
 }
-
-window.onload = function() {
-    if (!localStorage.getItem('reloaded')) { 
-      localStorage.setItem('reloaded', 'true');
-      setTimeout(function() {
-        location.reload();
-      }, 1);
-    }
-};
   
