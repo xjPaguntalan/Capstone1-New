@@ -20,7 +20,7 @@ duration: 1500, delay: 10, origin: 'right', interval: 100})
 ScrollReveal().reveal('#prg3, #prg3 img, #txt3', {distance: '200px',
 duration: 1500, delay: 10, origin: 'left', interval: 100})
 
-ScrollReveal().reveal('#econ1, #econ2, #econ3', {duration: 2000, delay: 100, interval: 200})
+ScrollReveal().reveal('#edu, #econ1, #econ2, #econ3', {duration: 2000, delay: 100, interval: 200})
 
 
 function redirectToResume() {
@@ -32,6 +32,7 @@ window.onload = function() {
       localStorage.setItem('reloaded', 'true');
       setTimeout(function() {
         location.reload();
-      }, 1);
+      }, 1000);
     }
 };
+  
