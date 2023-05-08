@@ -26,3 +26,12 @@ ScrollReveal().reveal('#econ1, #econ2, #econ3', {duration: 2000, delay: 100, int
 function redirectToResume() {
     window.open("https://1drv.ms/b/s!AnYRTfeNhzaIbSQzwZzskVNnTFA?e=EEQDgA");
 }
+
+window.onload = function() {
+    if (!localStorage.getItem('reloaded')) { 
+      localStorage.setItem('reloaded', 'true');
+      setTimeout(function() {
+        location.reload();
+      }, 1000);
+    }
+};
