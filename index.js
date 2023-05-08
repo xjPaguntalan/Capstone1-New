@@ -32,6 +32,6 @@ window.onload = function() {
       localStorage.setItem('reloaded', 'true');
       setTimeout(function() {
         location.reload();
-      }, 5000);
+      }, 1000);
     }
 };
