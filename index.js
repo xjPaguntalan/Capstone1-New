@@ -23,7 +23,7 @@ duration: 1500, delay: 10, origin: 'left', interval: 100})
 ScrollReveal().reveal('#edu, #econ1, #econ2, #econ3', {duration: 2000, delay: 100, interval: 200})
 
 function redirectToResume() {
-    window.open("https://1drv.ms/b/s!AnYRTfeNhzaIbSQzwZzskVNnTFA?e=EEQDgA");
+    window.open("https://1drv.ms/b/s!AnYRTfeNhzaIblCqZdBTPQ4sIo4?e=D9oync");
 }
 
 window.onload = function() {
