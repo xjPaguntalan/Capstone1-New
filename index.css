@@ -99,7 +99,7 @@ div h3{
 
 #myPic2 {
     border-radius: 70px;
-    max-height: 600px;
+    max-height: 700px;
 }
 
 #prog h1 {
@@ -132,4 +132,33 @@ div h3{
 
 .econbg, #econ1 img, #econ2 img, #econ3 img {
     border-radius: 20px;
+}
+
+.carousel-inner img{
+    aspect-ratio: 16/9;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    color: #073763;
+}
+
+.carousel-inner {
+    border: 3px solid #073763;
+    border-radius: 20px;
+}
+
+#prjtxt {
+    background-color: #073763;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+
+#footer {
+    background-color: #073763;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
 }
