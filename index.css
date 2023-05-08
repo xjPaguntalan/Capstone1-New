@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 div {
     overflow: hidden;
 }
