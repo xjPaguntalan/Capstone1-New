@@ -14,9 +14,6 @@
   
   <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b01cc1c892.js" crossorigin="anonymous"></script>
-
-  <!-- Scroll Reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
   
   <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +28,7 @@
 <body>
     
 <!-- Navbar Start -->
-<nav class="navbar navbar-expand-md fixed-top">
+<nav class="navbar navbar-expand-md fixed-top bg-dark">
   
   <div class="container-fluid my-1">
 
@@ -50,7 +47,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-light rounded-pill px-3" aria-current="page" href="#prog">Programming Languages</a>
+          <a class="nav-link text-light rounded-pill px-3" aria-current="page" href="#prog">Skills</a>
         </li>
 
         <li class="nav-item">
@@ -77,15 +74,15 @@
 
       <div class="row d-flex align-items-center justify-content-center">
 
-        <div id="homeContent" class="col-12 col-md-6 me ps-lg-5 pt-5">
-          <h3 class=".load-hidden" id="hi">Hello,</h3>
-          <h1 id="name" class="my-4 .load-hidden"><u>I'm Xandrix Paguntalan</u></h2>
-          <h3 class=".load-hidden" id="desc">Web Developer</h3>
-          <button id="hire" onclick="redirectToResume()" class="p-2 mt-3 mb-5 .load-hidden"><b>Resume</b></button>
+        <div id="homeContent" class="col-12 col-md-6 ps-lg-5 pt-4">
+          <h3  id="hi">Hello,</h3>
+          <h1 id="name" ><im>I'm</im> <u id="fname">Xandrix Paguntalan</u></h2>
+          <h3  id="desc">Web Developer</h3>
+          <button id="hire" onclick="redirectToResume()" class="p-2 mt-3 mb-5 "><b>Resume</b></button>
         </div>
 
         <div class="col-12 col-md-6 pt-sm-4 text-center">
-          <img id="myPic" class="img-fluid mb-5 .load-hidden" src="./images/FB PIC.jpg" alt="">
+          <img id="myPic" class="img-fluid " src="./images/FB PIC.jpg" alt="">
         </div>
 
       </div>
@@ -102,49 +99,53 @@
 
       <div class="row pt-4">
 
-        <h1 id="aboutme" class="text-center .load-hidden"><u>About Me</u></h1>
+        <h1 id="aboutme" class="text-center ">About Me</h1>
 
         <div class="col-12 col-md-6 jus pt-5 order-2 order-md-1">
 
-          <h1 id="fname" class="text-center .load-hidden">Xandrix Jill B. Paguntalan</h1>
-          <p id="desc2" class="col-10 mx-auto text-center .load-hidden">As an aspiring web developer, I have a strong foundation in front-end techniques that enable me to create visually appealing websites. Additionally, I have some knowledge in back-end development that allows me to add functionality to websites. While I am still learning and growing in my skills as a developer, I am eager to take on new challenges and continue to build my expertise in web development.</p>
+          <h1 id="fname" class="text-center ">Xandrix Jill B. Paguntalan</h1>
+          <p id="desc2" class="col-10 mx-auto pt-3">As a web developer, I have a strong foundation in front-end techniques that enable me to create visually appealing websites. With knowledge in back-end development, I can add functionality to enhance user experience. As a graduate of Zuitt coding bootcamp, I'm eager to tackle new challenges and continue honing my web development expertise.</p>
 
-          <h3 id="geninfo" class="text-center pt-5 .load-hidden"><b>General Info</b></h3>
+          <h3 class="text-center pt-5 orange"><b>General Info</b></h3>
 
           <div class="container-fluid col-12 col-md-8">
-            <div class="d-flex">
+            <div class="d-flex pt-3">
 
               <div class="col-6 d-flex justify-content-center">
                 <div class="col-12 text-center">
-                  <h5 id="dob" class="my-3 .load-hidden"><b>Date Of Birth:</b></h5>
-                  <h5 id="bp" class=".load-hidden"><b>Birth Place:</b></h5>
-                  <h5 id="l" class="my-3 .load-hidden"><b>Languages:</b></h5>
+                  
+                  <h5 >Birth Place:</h5>
+                  <h5 class="my-3 ">Languages:</h5>
                 </div>
               </div>
 
               <div class="col-6 d-flex justify-content-center">
-                <div class="col-12 text-center">
-                  <h5 id="jan" class="my-3.load-hidden">Jan 20, 2003</h5>
-                  <h5 id="dav" class=".load-hidden">Davao City</h5>
-                  <h5 id="eng" class="my-3 .load-hidden">English, Tagalog, Bisaya</h5>
+                <div class="col-12 ">
+                  
+                  <h5>Philippines</h5>
+                  <h5 class="my-3 ">English, Tagalog, Bisaya</h5>
                 </div>
               </div>
 
             </div>
           </div>
 
-          <h3 id="contact" class="text-center pt-4 .load-hidden"><b>Contact Info</b></h3>
+          <h3 class="text-center pt-5 pb-3 orange"><b>Contact Info</b></h3>
           
-          <h5 id="numb" class="text-center my-3 .load-hidden"><b>0947-576-1100 <i class="fa-solid fa-phone"></i></b></h5>
-          <h5 id="insta" class="text-center .load-hidden"><b><a target=" " href="https://www.instagram.com/xirdnqx/">Instagram <i class="fa-brands fa-instagram"></i> </a></b></h5>
-          <h5 id="fb" class="text-center my-3 .load-hidden"><b><a target=" " href="https://www.facebook.com/profile.php?id=100087469804846" >Facebook <i class="fa-brands fa-facebook"></i> </a></b></h5>
-          <h5 id="link" class="text-center .load-hidden"><b><a target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/">LinkedIn <i class="fa-brands fa-linkedin"></i> </a></b></h5>
-          <h5 id="gmail" class="text-center my-3 .load-hidden"><b>xandrixjillpaguntalan@gmail.com <i class="fa-regular fa-envelope"></i></b></h5>
+          <h5 class="text-center my-3" data-bs-toggle="tooltip" data-bs-title="Smart" data-bs-placement="top">0947-576-1100 <i class="fa-solid fa-phone"></i></h5>
+
+          <h5 id="insta" class="text-center"><a target=" " href="https://www.instagram.com/xirdnqx/">Instagram <i class="fa-brands fa-instagram"></i> </a></h5>
+
+          <h5 id="fb" class="text-center my-3 "><a target=" " href="https://www.facebook.com/profile.php?id=100087469804846" >Facebook <i class="fa-brands fa-facebook"></i> </a></h5>
+          
+          <h5 id="linkedin" class="text-center "><a target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/">LinkedIn <i class="fa-brands fa-linkedin"></i> </a></h5>
+
+          <h5 class="text-center my-3 ">xandrixjillpaguntalan@gmail.com <i class="fa-regular fa-envelope"></i></h5>
           
         </div>
 
         <div class="col-12 col-md-6 order-1 order-md-2 align-self-center text-center">
-          <img id="myPic2" class="img-fluid my-3 .load-hidden" src="./images/mypic2.jpg" alt="">
+          <img id="myPic2" class="img-fluid my-3 " src="./images/mypic2.jpg" alt="">
         </div>
 
       </div>
@@ -160,83 +161,83 @@
 
     <div class="container-fluid pt-5">
 
-      <h2 id="prglng" class="pt-4 text-center .load-hidden"><b><u>Programming Languages</u></b></h2>
+      <h2 id="prglng" class="pt-4 text-center "><b>Skills</b></h2>
 
-      <div class="row d-flex justify-content-evenly pt-5 mx-1">
+      <div class="row d-flex flex-wrap justify-content-center">
 
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
 
-
-        <div id="prg1" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center .load-hidden">
-
-          <div class="col-10 d-flex flex-column justify-content-evenly">
-
-            <div class="mt-5 mb-2 text-center">
-              <img class="img-fluid .load-hidden" src="./images/html.png" alt="">
-            </div>
-  
-            <div id="txt1" class="progtext mb-5 mt-3 .load-hidden">
-  
-              <h2 class="text-center mt-3">HTML</h2>
-  
-              <p class="mx-3">
-                The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.
-              </p>
-            </div>
-          </div>
+          <h3 class="orange">HTML</h3>
+          <p>HyperText Markup Language, used for creating the structure and content of web pages.</p>
 
         </div>
 
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
 
-
-        <div id="prg2" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center .load-hidden">
-
-          <div class="col-10 d-flex flex-column justify-content-evenly">
-
-            <div class="mt-5 mb-2 text-center">
-
-              <img class="img-fluid .load-hidden" src="./images/css.png" alt="">
-              
-            </div>
-  
-            <div id="txt2" class="progtext mb-5 mt-3 .load-hidden">
-  
-              <h2 class="text-center mt-3">CSS</h2>
-  
-              <p class="mx-3">
-                Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-              </p>
-  
-            </div>
-
-          </div>
+          <h3 class="orange">CSS</h3>
+          <p>Cascading Style Sheets, used for styling and formatting the appearance of web pages.</p>
 
         </div>
 
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
 
+          <h3 class="orange">JavaScript</h3>
+          <p>A programming language used to add interactivity and dynamic features to web pages.</p>
 
-        <div id="prg3" class="progcon col-12 col-md-4 mx-1 my-3 d-flex justify-content-center .load-hidden">
+        </div>
 
-          <div class="col-10 d-flex flex-column justify-content-evenly">
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
 
-            <div class="mt-5 mb-2 text-center">
-              <img class="img-fluid .load-hidden" src="./images/js.jpg" alt="">
-            </div>
-  
-            <div id="txt3" class="progtext mb-5 mt-3 .load-hidden">
-  
-              <h2 class="text-center mt-3">JavaScript</h2>
-  
-              <p class="mx-3">
-                JavaScript is a scripting language used to create and control dynamic website content, i.e. anything that moves, refreshes, or otherwise changes on your screen without requiring you to manually reload a web page.
-              </p>
-  
-            </div>
+          <h3 class="orange">Java</h3>
+          <p>A general-purpose programming language used for building a wide range of applications.</p>
 
-          </div>
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">Python</h3>
+          <p> A versatile programming language known for its readability and simplicity, used for web development, data analysis, and more.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">Bootstrap</h3>
+          <p>A popular front-end framework that simplifies the process of building responsive and mobile-first websites.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">React</h3>
+          <p>A JavaScript library used for building user interfaces for web applications.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">SQL</h3>
+          <p>Structured Query Language, used for managing and manipulating relational databases.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">NoSQL</h3>
+          <p>A non-relational database management system, which includes various databases like MongoDB, Cassandra, etc.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">Git</h3>
+          <p>A distributed version control system used for tracking changes in code repositories.
+          </p>
 
         </div>
 
       </div>
+      
 
     </div>
 
@@ -249,16 +250,16 @@
 
     <div class="pt-5 container-fluid">
 
-      <h1 id="edu" class="text-center py-4 .load-hidden"><u>Education</u></h1>
+      <h1 id="edu" class="text-center py-4">Education</h1>
 
       <div id="educationContainer" class="row d-flex justify-content-evenly">
 
 
-        <div id="econ1" class="col-12 col-md-6 p-3 .load-hidden">
+        <div id="econ1" class="col-12 col-md-6 p-3 ">
 
           <div class="p-3 econbg">
 
-            <div class="text-center">
+            <div class="text-center enlarge">
 
               <a target=" " href="https://www.pisdavao.com"><img class="img-fluid" src="./images/pisd.jpg" alt=""></a>
   
@@ -266,8 +267,8 @@
             
             <div>
   
-              <h3 class="py-2 text-center">Precious International School of Davao</h3>
-              <p>I enrolled in Precious International School of Davao for my elementary and high school education, starting in the year 2010 and graduating from high school in 2019.</p>
+              <h3 class="py-2 text-center orange">Precious International School of Davao</h3>
+              <p class="justifyText">I enrolled in Precious International School of Davao for my elementary and high school education, starting in the year 2010 and graduating from high school in 2019.</p>
               
             </div>
 
@@ -275,11 +276,11 @@
 
         </div>
 
-        <div id="econ2" class="col-12 col-md-6 p-3 .load-hidden">
+        <div id="econ2" class="col-12 col-md-6 p-3 ">
 
           <div class="p-3 econbg">
 
-            <div class="text-center">
+            <div class="text-center enlarge">
 
               <a target=" " href="https://mcm.edu.ph"><img class="img-fluid" src="./images/mmcm.jpg" alt=""></a>
   
@@ -287,8 +288,8 @@
             
             <div>
   
-              <h3 class="py-2 text-center">Mapúa Malayan Colleges Mindanao</h3>
-              <p>I enrolled in Mapúa Malayan Colleges Mindanao as a senior high student in May 2019 and graduated in May 2021 with an ICT-PRG strand in the TVL (Technical-Vocational-Livelihood) track. Additionally, I completed 1 year and 2 semesters in college at Mapúa Malayan Colleges Mindanao.</p>
+              <h3 class="py-2 text-center orange">Mapúa Malayan Colleges Mindanao</h3>
+              <p class="justifyText">I enrolled in Mapúa Malayan Colleges Mindanao as a senior high student in May 2019 and graduated in May 2021 with an ICT-PRG strand in the TVL (Technical-Vocational-Livelihood) track. Additionally, I completed 1 year and 2 semesters in college at Mapúa Malayan Colleges Mindanao.</p>
               
             </div>
 
@@ -296,11 +297,11 @@
 
         </div>
 
-        <div id="econ3" class="col-12 col-md-6 p-3 .load-hidden">
+        <div id="econ3" class="col-12 col-md-6 p-3 ">
 
           <div class="p-3 econbg">
 
-            <div class="text-center">
+            <div class="text-center enlarge">
 
               <a target=" " href="https://zuitt.co"><img class="img-fluid" src="./images/zuitt.jpg" alt=""></a>
   
@@ -308,8 +309,8 @@
             
             <div>
   
-              <h3 class="py-2 text-center">Zuitt Coding Bootcamp</h3>
-              <p>I joined Zuitt to further expand my knowledge in web development. There are three courses in total, and I have already completed two of them, which are the front-end and back-end courses. Currently, we are in the last course, which is the full-stack course, and we are expected to graduate within the month of May 2023.</p>
+              <h3 class="py-2 text-center orange">Zuitt Coding Bootcamp</h3>
+              <p class="justifyText">I joined Zuitt to further expand my knowledge in web development. There are three courses in total, and I have already completed two of them, which are the front-end and back-end courses. Currently, we are in the last course, which is the full-stack course, and we are expected to graduate within the month of May 2023.</p>
               
             </div>
 
@@ -326,21 +327,21 @@
 
 <!-- Projects Start -->
 
-  <div id="projects" class="min-vh-100">
+  <div id="projects">
 
     <div class="container-fluid pt-5">
 
-      <h1 class="py-4 text-center"><u>Projects</u></h1>
+      <h1 class="py-4 text-center white">Projects</h1>
 
       <div class="d-flex flex-column align-items-center">
 
         <div class="col-12 col-md-10">
 
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
             
             <div class="carousel-inner">
           
-              <div class="carousel-item active" data-bs-interval="3000">
+              <div class="carousel-item" data-bs-interval="3000">
                 <img src="./images/proj1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block"></div>
               </div>
@@ -364,14 +365,24 @@
                 <img src="https://iili.io/HGSPKNf.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block"></div>
               </div>
+
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./images/proj5.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./images/proj6.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
           
             </div>
           
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
               <i class="fa-solid fa-chevron-left"></i>
             </button>
           
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
               <i class="fa-solid fa-chevron-right"></i>
             </button>
           
@@ -379,9 +390,9 @@
   
         </div>
 
-        <div id="prjtxt" class="text-center mt-3 mb-5">
+        <div id="prjtxt" class="text-center mt-3 mb-md-5">
 
-          <h4 class="ps-3 pe-3 pt-3 pb-2">The projects displayed above are examples of my work while I was learning at Zuitt.</h4>
+          <h4 class="ps-3 pe-3 pt-3 pb-2 orange">The projects displayed above are examples of my work while I was learning at Zuitt.</h4>
 
         </div>
 
@@ -402,30 +413,30 @@
     <div class="d-flex pt-3">
 
       <div class="mx-3">
-        <a target=" " href="https://www.facebook.com/profile.php?id=100087469804846" > <i class="fa-brands fa-facebook fa-lg"></i> </a>
+        <a id="ffb" target=" " href="https://www.facebook.com/profile.php?id=100087469804846" > <i class="fa-brands fa-facebook fa-lg"></i> </a>
       </div>
 
       <div class="mx-3">
-        <a target=" " href="https://www.instagram.com/xirdnqx/"><i class="fa-brands fa-instagram fa-lg"></i> </a>
+        <a id="finsta" target=" " href="https://www.instagram.com/xirdnqx/"><i class="fa-brands fa-instagram fa-lg"></i> </a>
       </div>
 
       <div class="mx-3">
-        <a target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/"><i class="fa-brands fa-linkedin fa-lg"></i> </a>
+        <a id="flinkedin" target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/"><i class="fa-brands fa-linkedin fa-lg"></i> </a>
       </div>
 
       <div class="mx-3">
-        <a target=" " href="https://gitlab.com/xjPaguntalan"><i class="fa-brands fa-gitlab fa-lg"></i></a>
+        <a id="fgitlab" target=" " href="https://gitlab.com/xjPaguntalan"><i class="fa-brands fa-gitlab fa-lg"></i></a>
       </div>
 
       <div class="mx-3">
-        <a target=" " href="https://github.com/xjPaguntalan"><i class="fa-brands fa-github fa-lg"></i></a>
+        <a id="fgithub" target=" " href="https://github.com/xjPaguntalan"><i class="fa-brands fa-github fa-lg"></i></a>
       </div>
 
     </div>
 
     <div class="my-3">
 
-      <div class="text-center">
+      <div class="text-center" data-bs-toggle="tooltip" data-bs-title="Smart" data-bs-placement="top">
         0947-576-1100 <i class="fa-solid fa-phone"></i>
       </div>
 
@@ -450,9 +461,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 <!-- Bootstrap End -->
 
-<!-- Scroll Reveal Start -->
-  <script src="index.js"></script>
-<!-- Scroll Reveal End -->
+<!-- JS Start -->
+  <script src="./index.js"></script>
+<!-- JS End -->
 
 </body>
 </html>
