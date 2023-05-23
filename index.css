@@ -6,16 +6,13 @@
     scroll-behavior: smooth;
 }
 
-html.sr .load-hidden {
-    visibility: hidden;
-}
-
-div {
-    overflow: hidden;
-}
-
 html {
-    overflow-x: hidden;
+    background-color: #000000;
+    scroll-behavior: smooth;
+}
+
+#homepage {
+    background-color: #1F2022;
 }
 
 #homepage h1 {
@@ -34,23 +31,17 @@ html {
     font-size: 40px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 nav {
     width: 100%;
 }
 
-.navbar {
-    background: #073763;
-}
-
 .navbar a {
+    transition-duration: .3s;
     color: #fff;
 }
 
 .navbar a:hover {
+    transition-duration: .5s;
     background-color: #ffa500;
 }
 
@@ -59,8 +50,9 @@ nav {
 }
 
 #myPic {
-    border-radius: 70px 0px 70px 0px;
+    border-radius: 80px ;
     max-height: 600px;
+    
 }
 
 div button {
@@ -82,19 +74,45 @@ div h3{
 
 @media screen and (max-width: 767px) {
     #homeContent {
-        background-color: white;
+        background-color: #1F2022;
+        color: #fff;
+    }
+
+    #hi, #desc, #hire {
+        font-size: 20px;
+    }
+
+    #name im {
+        font-size: 25px;  
+    }
+
+    #name u {
+        font-size: 30px;  
     }
 }
 
 @media screen and (min-width: 768px) {
     #homeContent {
-        background: #073763;
+        background: #21252B;
         color: #fff;
     }
 }
 
+#hire {
+
+    transition-duration: .5s;
+}
+
+#hire:hover {
+    scale: 1.3;
+    transition-duration: .5s;
+    background-color: #FCA326;
+    color: #fff;
+}
+
 #aboutMe {
-    background-image: url();
+    background-color: #1F2022;
+    color: #fff;
 }
 
 #aboutMe a {
@@ -102,13 +120,41 @@ div h3{
     color: black;
 }
 
+#desc2 {
+    text-align: justify;
+}
+
+#insta a, #fb a, #linkedin a {
+    color: #fff;
+    transition-duration: .5s;
+}
+
+#insta a:hover {
+    color: #E1256C;
+    transition-duration: .5s;
+}
+
+#fb a:hover {
+    color: #1877F2;
+    transition-duration: .5s;
+}
+
+#linkedin a:hover {
+    color: #0A66C2;
+    transition-duration: .5s;
+}
+
 #myPic2 {
     border-radius: 70px;
     max-height: 700px;
 }
 
-#prog h1 {
-    font-size: 50px;
+#prog {
+    background-color: #1F2022;
+}
+
+#prog h2 {
+    color: #fff;
 }
 
 #prog img {
@@ -126,17 +172,27 @@ div h3{
 }
 
 .econbg {
-    background: #073763;
+    background: #242930;
     height: 100%;
     color: white;
 }
 
+#education {
+    background-color: #1F2022;
+}
+
 #edu {
     font-size: 55px;
+    color: #fff;
 }
 
 .econbg, #econ1 img, #econ2 img, #econ3 img {
     border-radius: 20px;
+}
+
+#projects {
+    background-color: #1F2022;
+    min-height: 80vh;
 }
 
 .carousel-inner img{
@@ -149,20 +205,75 @@ div h3{
 
 .carousel-inner {
     border: 3px solid #073763;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #prjtxt {
-    background-color: #073763;
     color: #fff;
-    border-radius: 20px;
 }
 
 #footer {
-    background-color: #073763;
+    background-color: #242930;
     color: #fff;
 }
 
 #footer a {
     color: #fff;
+}
+
+.white {
+    color: #fff;
+}
+
+.smoothBorder {
+    border-radius: 30px;
+}
+
+.justifyText {
+    text-align: justify;
+}
+
+#ffb, #finsta, #flinkedin, #fgitlab, #fgithub {
+    transition-duration: .5s;
+}
+
+#ffb:hover {
+    transition-duration: .5s;
+    color: #1877F2;
+}
+
+#finsta:hover {
+    transition-duration: .5s;
+    color: #C13584;
+}
+
+#flinkedin:hover {
+    transition-duration: .5s;
+    color: #0A66C2;
+}
+
+#fgitlab:hover {
+    transition-duration: .5s;
+    color: #FCA326;
+}
+
+#fgithub:hover {
+    transition-duration: .5s;
+    color: #181717;
+}
+
+.enlarge {
+    transition-duration: .5s;
+}
+
+.enlarge:hover {
+    scale: 1.03;
+    transition-duration: .5s;
+}
+
+#fname {
+    color: #FCA326;
+}
+.orange {
+    color: #FCA326;
 }
