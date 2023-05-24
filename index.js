@@ -1,5 +1,5 @@
 function redirectToResume() {
-    window.open("https://1drv.ms/b/s!AnYRTfeNhzaIfUj_eR9pRgvRlLo?e=bZv8EN");
+    window.open("https://1drv.ms/b/s!AnYRTfeNhzaIfhGmOeJtu4JDMFY?e=5ajPbn");
 }
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
