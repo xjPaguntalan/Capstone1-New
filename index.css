@@ -120,10 +120,6 @@ div h3{
     color: black;
 }
 
-#desc2 {
-    text-align: justify;
-}
-
 #insta a, #fb a, #linkedin a {
     color: #fff;
     transition-duration: .5s;
@@ -192,7 +188,6 @@ div h3{
 
 #projects {
     background-color: #1F2022;
-    min-height: 80vh;
 }
 
 .carousel-inner img{
@@ -227,10 +222,6 @@ div h3{
 
 .smoothBorder {
     border-radius: 30px;
-}
-
-.justifyText {
-    text-align: justify;
 }
 
 #ffb, #finsta, #flinkedin, #fgitlab, #fgithub {
@@ -268,6 +259,7 @@ div h3{
 
 .enlarge:hover {
     scale: 1.03;
+    overflow: hidden;
     transition-duration: .5s;
 }
 
@@ -276,4 +268,33 @@ div h3{
 }
 .orange {
     color: #FCA326;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffa500;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+#pcard {
+    border-radius: 40px;
+}
+
+#pimg  {
+    overflow: hidden;
+}
+
+#pimg img {
+    transition: all .8s;
+}
+
+#pimg img:hover {
+    transform: scale(1.04);
+}
+
+#test {
+    height: 518px;
 }
