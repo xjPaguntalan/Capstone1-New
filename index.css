@@ -27,10 +27,6 @@ html {
     font-size: 17px;
 }
 
-#prglng {
-    font-size: 40px;
-}
-
 nav {
     width: 100%;
 }
@@ -88,6 +84,10 @@ div h3{
 
     #name u {
         font-size: 30px;  
+    }
+
+    .test {
+        font-size: 15px;
     }
 }
 
@@ -186,7 +186,7 @@ div h3{
     border-radius: 20px;
 }
 
-#projects {
+#projects, #certificate {
     background-color: #1F2022;
 }
 
@@ -253,21 +253,23 @@ div h3{
     color: #181717;
 }
 
-.enlarge {
-    transition-duration: .5s;
+#ecard {
+    overflow: hidden;
 }
 
-.enlarge:hover {
-    scale: 1.03;
-    overflow: hidden;
-    transition-duration: .5s;
+#ecard img {
+    transition: all .8s;
+}
+
+#ecard img:hover {
+    scale: 1.07;
 }
 
 #fname {
-    color: #FCA326;
+    color: #ffa500;
 }
 .orange {
-    color: #FCA326;
+    color: #ffa500;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -295,6 +297,6 @@ div h3{
     transform: scale(1.04);
 }
 
-#test {
-    height: 518px;
+#certificate {
+    min-height: 60vh;
 }
